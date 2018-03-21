@@ -39,6 +39,7 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
+
     <section class="header">
       <div class="row">
         <div class="one-third column">
@@ -52,11 +53,23 @@
       </div>
     </section>
 
-    <!-- Sections -->
+    <!-- Button Sections -->
 
-    <button onclick="toggleclass('s_plant','hidden')">Succession Planting</button>
-    <button onclick="toggleclass('c_plant','hidden')">Companion Planting</button>
-    <button onclick="toggleclass('rotate','hidden')">Crop Rotation</button>
+    <section>
+      <div class="row">
+        <div class="offset-by-one three columns">
+          <button class="section_button" onclick="toggleclass('s_plant','hidden')">Succession Planting</button>
+        </div>
+        <div class="offset-by-one three columns">
+          <button class="section_button" onclick="toggleclass('c_plant','hidden')">Companion Planting</button>
+        </div>
+        <div class="offset-by-one three columns">
+          <button class="section_button" onclick="toggleclass('rotate','hidden')">Crop Rotation</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sections -->
 
     <div class="docs-section hidden" id="s_plant">
       <h6 class="docs-header">Succession</h6>
@@ -100,10 +113,9 @@
       </p>
     </div>
 
+  </div>
 
-
-
-    <!-- End Document
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 

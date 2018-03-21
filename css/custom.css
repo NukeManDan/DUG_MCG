@@ -10,6 +10,11 @@ body {
   max-width: 800px;
 }
 
+.section_button {
+  height: auto;
+  white-space: normal;
+}
+
 .header {
   margin-top: 6rem;
   text-align: center;
